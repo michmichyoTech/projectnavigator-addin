@@ -1,0 +1,47 @@
+# Backlog
+
+- [X] Le dossier `project-navigator-addin` contient une structure de preparation pour le futur add-in
+- [X] Les responsabilites entre add-in, standalone et core sont documentees
+- [X] Les modules du core a reutiliser sont cartographies
+- [X] Les comportements du panneau droit standalone a reproduire sont cartographies
+- [X] Les placeholders `taskpane`, `office`, `core` et `mock` existent
+- [X] Une strategie Yeoman manuelle est documentee
+- [X] L'echec de generation Yeoman et le scaffold partiel sont analyses
+- [X] Un plan de fusion entre scaffold Yeoman et structure preparee est documente
+- [X] Le dossier racine de l'add-in est fixe comme racine unique du projet final
+- [X] Les fichiers techniques utiles du scaffold Yeoman sont promus a la racine de `project-navigator-addin`
+- [X] Le `package.json` du projet add-in est en place a la racine
+- [X] Le `webpack.config.js` du projet add-in est en place a la racine
+- [X] Le `manifest.project.xml` est en place a la racine
+- [X] Les fichiers `src/taskpane/taskpane.html`, `taskpane.js` et `taskpane.css` sont en place dans le projet final
+- [X] Les fichiers `src/commands/commands.html` et `commands.js` sont en place dans le projet final
+- [X] Le point d'entree `src/taskpane/taskpane.js` appelle `src/taskpane/taskpane-bootstrap.js`
+- [X] Les imports multi-host inutiles sont retires du task pane genere
+- [X] Le contenu sample Contoso est retire du `taskpane.html`
+- [ ] Le style sample Contoso est remplace par une base visuelle Project Navigator
+- [ ] Le bootstrap du task pane affiche un shell minimal Project Navigator
+- [ ] Le shell du task pane gere l'etat "aucune tache selectionnee"
+- [ ] Le shell du task pane gere l'etat "message d'information / erreur"
+- [ ] Le shell du task pane gere l'etat "fiche tache selectionnee"
+- [ ] Le shell du task pane gere l'etat "liste filtree de taches"
+- [ ] Le shell du task pane gere l'etat "visualisation dependances niveau 1"
+- [ ] Le shell du task pane gere l'etat "visualisation dependances niveau 2"
+- [ ] L'adaptateur mock permet de tester le task pane sans Office.js
+- [ ] L'adaptateur Office lit le contexte de selection Project
+- [ ] L'adaptateur Office lit les taches Project
+- [ ] L'adaptateur Office lit les liens de dependance Project
+- [ ] Les donnees Office sont converties vers les shapes attendus par `project-navigator-core`
+- [ ] Le bridge vers `project-navigator-core` importe reellement les helpers necessaires
+- [ ] La recherche par ID et nom fonctionne via le core dans le task pane
+- [ ] Le calcul des predecesseurs et successeurs directs fonctionne via le core
+- [ ] Le calcul des niveaux 2 fonctionne via le core
+- [ ] Les mises en evidence de contraintes actives fonctionnent via le core
+- [ ] Le manifest Project contient l'identite, le nom et les URLs de dev coherents
+- [ ] Le projet add-in se build localement
+- [ ] Le task pane se lance localement avec le serveur de developpement Office
+- [ ] Le task pane se charge dans MS Project
+- [ ] Le task pane affiche un etat minimal fonctionnel dans MS Project
+- [ ] Le task pane reagit au changement de tache selectionnee dans MS Project
+- [ ] Le task pane fonctionnel est valide de bout en bout dans MS Project
+- [ ] Un onglet de travail independant de VS Code et du dossier de developpement de code est cree
+- [ ] Un MSI de diffusion de l'add-in est produit
