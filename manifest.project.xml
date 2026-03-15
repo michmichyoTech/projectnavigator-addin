@@ -3,17 +3,18 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
-  <Id>05c2e1c9-3e1d-406e-9a91-e9ac64854143</Id>
-  <Version>1.0.0.0</Version>
-  <ProviderName>Contoso</ProviderName>
+  <Id>3f9f6d23-6aab-4bb0-a8d5-1a7f3f4e8c21</Id>
+  <Version>1.0.0.1</Version>
+  <ProviderName>Mass Consultants</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Contoso Task Pane Add-in"/>
-  <Description DefaultValue="A template to get started."/>
+  <DisplayName DefaultValue="Project Navigator Add-in"/>
+  <Description DefaultValue="Task pane add-in for navigating tasks, dependencies, and constraints in Microsoft Project."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://github.com/michmichyoTech/projectnavigator-addin"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://github.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Project"/>

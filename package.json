@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OfficeDev/Office-Addin-TaskPane-JS.git"
+    "url": "https://github.com/michmichyoTech/projectnavigator-addin.git"
   },
   "license": "MIT",
   "config": {
-    "app_to_debug": "excel",
+    "app_to_debug": "project",
     "app_type_to_debug": "desktop",
     "dev_server_port": 3000
   },
@@ -26,13 +26,13 @@
     "prettier": "office-addin-lint prettier",
     "signin": "office-addin-dev-settings m365-account login",
     "signout": "office-addin-dev-settings m365-account logout",
-    "start": "office-addin-debugging start manifest.xml",
-    "stop": "office-addin-debugging stop manifest.xml",
+    "start": "office-addin-debugging start manifest.project.xml",
+    "stop": "office-addin-debugging stop manifest.project.xml",
     "test:mpp-sample": "node ./scripts/assert-mpp-read.js",
     "test": "npm run test:unit && npm run test:e2e",
     "test:e2e": "mocha -r ts-node/register test/end-to-end/*.ts",
     "test:unit": "mocha -r ts-node/register test/unit/*.test.ts",
-    "validate": "office-addin-manifest validate manifest.xml",
+    "validate": "office-addin-manifest validate manifest.project.xml",
     "watch": "webpack --mode development --watch"
   },
   "dependencies": {

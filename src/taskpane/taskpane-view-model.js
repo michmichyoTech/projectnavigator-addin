@@ -22,6 +22,9 @@ export function createTaskPaneViewModel() {
     ],
     interactions: [
       "select-task",
+      "project-task-selection-changed",
+      "search-task-by-id",
+      "search-task-by-name",
       "click-dependency-card",
       "change-dependency-level",
       "show-task-not-found-message"

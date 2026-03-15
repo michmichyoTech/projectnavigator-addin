@@ -22,17 +22,19 @@
 - [X] Le bootstrap du task pane affiche un shell minimal Project Navigator
 - [X] Le shell du task pane gere les etats principaux: aucune tache selectionnee, message d'information ou d'erreur, fiche tache selectionnee, liste filtree de taches, visualisation dependances niveau 1 et niveau 2
 - [X] Les adaptateurs de donnees permettent de tester le task pane sans Office.js et de lire/convertir le contexte, les taches et les dependances Project vers les shapes attendus par `project-navigator-core`
-- [ ] Le bridge vers `project-navigator-core` importe reellement les helpers necessaires
-- [ ] La recherche par ID et nom fonctionne via le core dans le task pane
-- [ ] Le calcul des predecesseurs et successeurs directs fonctionne via le core
-- [ ] Le calcul des niveaux 2 fonctionne via le core
-- [ ] Les mises en evidence de contraintes actives fonctionnent via le core
-- [ ] Le manifest Project contient l'identite, le nom et les URLs de dev coherents
-- [ ] Le projet add-in se build localement
-- [ ] Le task pane se lance localement avec le serveur de developpement Office
-- [ ] Le task pane se charge dans MS Project
-- [ ] Le task pane affiche un etat minimal fonctionnel dans MS Project
-- [ ] Le task pane reagit au changement de tache selectionnee dans MS Project
-- [ ] Le task pane fonctionnel est valide de bout en bout dans MS Project
+- [X] Le bridge vers `project-navigator-core` importe reellement les helpers necessaires
+- [X] La recherche par ID et nom fonctionne via le core dans le task pane
+- [X] Le calcul des predecesseurs et successeurs directs fonctionne via le core
+- [X] Le calcul des niveaux 2 fonctionne via le core
+- [X] Les mises en evidence de contraintes actives fonctionnent via le core
+- [X] Le manifest Project contient l'identite, le nom et les URLs de dev coherents
+- [X] Le projet add-in se build localement
+- [X] Le task pane se lance localement avec le serveur de developpement Office
+- [X] Le task pane se charge dans MS Project
+- [X] Le task pane affiche un etat minimal fonctionnel dans MS Project
+- [X] Le task pane reagit au changement de tache selectionnee dans MS Project
+- [X] L'interface du task pane reproduit la structure visuelle de `project-navigator`
+- [X] Le task pane fonctionnel est valide de bout en bout dans MS Project
+- [ ] Le task pane permet d'afficher deux champs mappes supplementaires choisis dans des menus deroulants
 - [ ] Un onglet de travail independant de VS Code et du dossier de developpement de code est cree
 - [ ] Un MSI de diffusion de l'add-in est produit

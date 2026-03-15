@@ -66,7 +66,8 @@ try {
     selectedCoreFields = @($selection.coreFields)
     selectedTaskPropertyFields = @($selectedPropertyFields)
     taskCount = $tasks.Count
-    taskSample = @($tasks | Select-Object -First $TaskCount)
+    tasks = @($tasks)
+    taskSample = if ($TaskCount -gt 0) { @($tasks | Select-Object -First $TaskCount) } else { @($tasks) }
   }
 
   $result | ConvertTo-Json -Depth 8 | Set-Content -Path $outputFullPath -Encoding UTF8

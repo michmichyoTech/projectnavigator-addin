@@ -24,10 +24,21 @@ export function createTaskPaneShell() {
       title: "Tache selectionnee",
       task: {
         id: "42",
+        uniqueId: "TASK-42",
         name: "Valider le prototype du task pane",
         owner: "Equipe PMO",
-        phase: "Pilotage"
+        phase: "Pilotage",
+        wbs: "1.2.1",
+        startDate: "2026-03-20",
+        endDate: "2026-03-22",
+        duration: "3 days",
+        predecessors: "21FS",
+        successors: "57FS"
       }
+    },
+    visualization: {
+      dependencyLevel: 1,
+      zoomScale: 1
     },
     filteredTasks: {
       title: "Liste filtree",
@@ -37,6 +48,19 @@ export function createTaskPaneShell() {
         "57 - Documenter le cycle de validation",
         "63 - Preparer le plan de diffusion"
       ]
+    },
+    searchDemo: {
+      idQuery: "42",
+      nameQuery: "prototype"
+    },
+    relationDemo: {
+      taskId: "57"
+    },
+    secondLevelDemo: {
+      taskId: "57"
+    },
+    constraintDemo: {
+      taskId: "57"
     },
     dependencyLevel1: {
       title: "Dependances niveau 1",

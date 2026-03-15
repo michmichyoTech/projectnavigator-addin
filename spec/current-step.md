@@ -2,24 +2,25 @@
 
 ## Task
 
-Brancher le bridge de `src/core` sur les helpers reels de `project-navigator-core`.
+Ajouter dans le task pane deux menus deroulants de champs mappes pour afficher des informations supplementaires sur la tache selectionnee.
 
 ## Expected behavior
 
-Le bridge du projet n'est plus seulement declaratif: il importe les helpers utiles depuis `project-navigator-core` et expose un point d'entree reel pour les prochaines etapes de recherche et de calcul de dependances.
+Le task pane propose deux listes basees sur le catalogue des champs mappes present en tete du JSON exporte. Quand l'utilisateur choisit un ou deux champs, leurs valeurs s'affichent dans la carte centrale de la tache selectionnee, sous les informations deja presentes, avec la meme presentation.
 
 ## Out of scope
 
-- brancher encore le task pane sur ces helpers
-- finaliser les calculs de recherche et de dependances dans l'UI
-- modifier le code source de `project-navigator-core`
+- traiter la diffusion MSI
+- publier les assets en production
+- refondre encore la strategie globale de latence
 
 ## Acceptance criteria
 
-- `src/core/project-navigator-core-bridge.js` importe reellement les helpers necessaires depuis `project-navigator-core`
-- le bridge expose ces helpers via une API claire pour le task pane
-- le bridge reste tolerant si le core n'est pas encore complet ou si certains exports sont absents
+- deux menus deroulants apparaissent a cote du selecteur `Dependency level`
+- leurs options proviennent du catalogue de `selectedTaskPropertyFields` du JSON exporte
+- les champs choisis s'affichent dans la carte centrale de la tache avec des lignes supplementaires
+- la presentation reste coherente avec la carte existante
 
 ## Status
 
-in_progress
+implemented-awaiting-user-validation
