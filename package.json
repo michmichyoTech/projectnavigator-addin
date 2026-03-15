@@ -28,6 +28,7 @@
     "signout": "office-addin-dev-settings m365-account logout",
     "start": "office-addin-debugging start manifest.xml",
     "stop": "office-addin-debugging stop manifest.xml",
+    "test:mpp-sample": "node ./scripts/assert-mpp-read.js",
     "test": "npm run test:unit && npm run test:e2e",
     "test:e2e": "mocha -r ts-node/register test/end-to-end/*.ts",
     "test:unit": "mocha -r ts-node/register test/unit/*.test.ts",

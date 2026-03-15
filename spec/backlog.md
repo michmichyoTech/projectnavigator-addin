@@ -18,19 +18,10 @@
 - [X] Le point d'entree `src/taskpane/taskpane.js` appelle `src/taskpane/taskpane-bootstrap.js`
 - [X] Les imports multi-host inutiles sont retires du task pane genere
 - [X] Le contenu sample Contoso est retire du `taskpane.html`
-- [ ] Le style sample Contoso est remplace par une base visuelle Project Navigator
-- [ ] Le bootstrap du task pane affiche un shell minimal Project Navigator
-- [ ] Le shell du task pane gere l'etat "aucune tache selectionnee"
-- [ ] Le shell du task pane gere l'etat "message d'information / erreur"
-- [ ] Le shell du task pane gere l'etat "fiche tache selectionnee"
-- [ ] Le shell du task pane gere l'etat "liste filtree de taches"
-- [ ] Le shell du task pane gere l'etat "visualisation dependances niveau 1"
-- [ ] Le shell du task pane gere l'etat "visualisation dependances niveau 2"
-- [ ] L'adaptateur mock permet de tester le task pane sans Office.js
-- [ ] L'adaptateur Office lit le contexte de selection Project
-- [ ] L'adaptateur Office lit les taches Project
-- [ ] L'adaptateur Office lit les liens de dependance Project
-- [ ] Les donnees Office sont converties vers les shapes attendus par `project-navigator-core`
+- [X] Le style sample Contoso est remplace par une base visuelle Project Navigator
+- [X] Le bootstrap du task pane affiche un shell minimal Project Navigator
+- [X] Le shell du task pane gere les etats principaux: aucune tache selectionnee, message d'information ou d'erreur, fiche tache selectionnee, liste filtree de taches, visualisation dependances niveau 1 et niveau 2
+- [X] Les adaptateurs de donnees permettent de tester le task pane sans Office.js et de lire/convertir le contexte, les taches et les dependances Project vers les shapes attendus par `project-navigator-core`
 - [ ] Le bridge vers `project-navigator-core` importe reellement les helpers necessaires
 - [ ] La recherche par ID et nom fonctionne via le core dans le task pane
 - [ ] Le calcul des predecesseurs et successeurs directs fonctionne via le core

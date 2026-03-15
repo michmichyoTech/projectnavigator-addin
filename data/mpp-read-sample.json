@@ -1,0 +1,80 @@
+﻿{
+    "sourceFile":  "C:\\Users\\yoram\\OneDrive - Technion\\Archives Consultant\\06. Developpement web\\project-navigator-addin\\data\\Oil Jetty Project - change in work method_V4 sections.mpp",
+    "taskCount":  303,
+    "dependencyCount":  384,
+    "firstTask":  {
+                      "id":  "1",
+                      "uniqueId":  "76",
+                      "wbs":  "1",
+                      "name":  "Hamifratz Port Oil Jetty",
+                      "summary":  true,
+                      "startDate":  "2024-06-02T07:00:00",
+                      "endDate":  "2030-06-04T17:00:00"
+                  },
+    "taskSample":  [
+                       {
+                           "id":  "1",
+                           "uniqueId":  "76",
+                           "wbs":  "1",
+                           "name":  "Hamifratz Port Oil Jetty",
+                           "summary":  true,
+                           "startDate":  "2024-06-02T07:00:00",
+                           "endDate":  "2030-06-04T17:00:00"
+                       },
+                       {
+                           "id":  "2",
+                           "uniqueId":  "91",
+                           "wbs":  "1.1",
+                           "name":  "Letter of Acceptance",
+                           "summary":  false,
+                           "startDate":  "2024-06-02T07:00:00",
+                           "endDate":  "2024-06-02T07:00:00"
+                       },
+                       {
+                           "id":  "3",
+                           "uniqueId":  "73",
+                           "wbs":  "1",
+                           "name":  "Contract Milestones",
+                           "summary":  true,
+                           "startDate":  "2024-08-20T07:00:00",
+                           "endDate":  "2027-05-08T17:00:00"
+                       }
+                   ],
+    "dependencySample":  [
+                             {
+                                 "predecessorId":  "2",
+                                 "successorId":  "4",
+                                 "type":  "FS",
+                                 "lag":  "+60",
+                                 "lagFormat":  "edays"
+                             },
+                             {
+                                 "predecessorId":  "140",
+                                 "successorId":  "5",
+                                 "type":  "",
+                                 "lag":  "",
+                                 "lagFormat":  ""
+                             },
+                             {
+                                 "predecessorId":  "244",
+                                 "successorId":  "8",
+                                 "type":  "",
+                                 "lag":  "",
+                                 "lagFormat":  ""
+                             },
+                             {
+                                 "predecessorId":  "272",
+                                 "successorId":  "9",
+                                 "type":  "",
+                                 "lag":  "",
+                                 "lagFormat":  ""
+                             },
+                             {
+                                 "predecessorId":  "105",
+                                 "successorId":  "9",
+                                 "type":  "",
+                                 "lag":  "",
+                                 "lagFormat":  ""
+                             }
+                         ]
+}

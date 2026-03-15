@@ -5,6 +5,14 @@ import { createCoreBridge } from "../core/project-navigator-core-bridge.js";
 export function createTaskPaneViewModel() {
   return {
     bridge: createCoreBridge(),
+    stateGroups: [
+      "empty-selection",
+      "info-or-error-message",
+      "selected-task-card",
+      "filtered-task-list",
+      "dependency-visualization-level-1",
+      "dependency-visualization-level-2"
+    ],
     states: [
       "empty-selection-message",
       "selected-task-card",

@@ -46,5 +46,33 @@ Contoso sample content removed from the task pane host page
 Task pane CSS replaced with a Project Navigator visual base
 
 - Date: 2026-03-15
-- Status: implemented-awaiting-user-validation
-- Notes: `src/taskpane/taskpane.css` no longer contains the Contoso welcome styles. It now defines Project Navigator colors, typography, background treatment, and root layout styling for `#project-navigator-root`.
+- Status: validated
+- Notes: user validation received. `src/taskpane/taskpane.css` no longer contains the Contoso welcome styles. It now defines Project Navigator colors, typography, background treatment, and root layout styling for `#project-navigator-root`.
+
+## Step
+Bootstrap renders a minimal Project Navigator shell
+
+- Date: 2026-03-15
+- Status: validated
+- Notes: user validation received. `bootstrapTaskPane()` renders a minimal Project Navigator shell into `#project-navigator-root` and still returns the `shell` and `viewModel` objects for the upcoming task pane states.
+
+## Step
+Task pane shell handles the empty-selection state
+
+- Date: 2026-03-15
+- Status: validated
+- Notes: user validation received. `createTaskPaneShell()` now declares an explicit `empty-selection` status and copy, and `bootstrapTaskPane()` renders a dedicated empty-state block when no task is selected.
+
+## Step
+Task pane shell handles the main Project Navigator states in a unified step
+
+- Date: 2026-03-15
+- Status: validated
+- Notes: user validation received. The backlog state items were consolidated into one step. The shell now exposes visible representations for empty selection, information or error, selected task, filtered task list, and dependency views level 1 and level 2.
+
+## Step
+Data adapters cover mock testing and normalized Project reads in one unified step
+
+- Date: 2026-03-15
+- Status: validated
+- Notes: user validation received. The backlog adapter items were consolidated into one step. `src/mock/mock-project-data-adapter.js` now provides reusable mock tasks, dependencies, and selection data, while `src/office/project-adapter.js` normalizes selection, tasks, and dependency links into shapes aligned with the core contract.
